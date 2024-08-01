@@ -5,9 +5,9 @@ from django.http import JsonResponse
 from functools import partial
 from gbm.utils import GMapsExtractor
 from .tasks import scrap_data1
-from .tasks import add
 
 
+"""
 def index(request):
     if request.method == 'POST':
         x = int(request.POST.get('x', 0))
@@ -16,12 +16,12 @@ def index(request):
         return JsonResponse({'task_id': result.id})
 
     return render(request, 'home.html')
+"""
 
 def home(request):
     return render(request,'home.html')
 
  
-
 # Example usage in a view
 def some_view(request):
     keyword_list = []

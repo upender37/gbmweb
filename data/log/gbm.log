@@ -338,3 +338,91 @@ Stacktrace:
 	BaseThreadInitThunk [0x00007FFCD50E257D+29]
 	RtlUserThreadStart [0x00007FFCD640AF28+40]
 
+2024-08-01 17:28:32,498:ERROR:gbm:WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+Traceback (most recent call last):
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\utils.py", line 39, in run
+    br = WebDriver()
+         ^^^^^^^^^^^
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\webdriver.py", line 25, in __init__
+    super().__init__(executable_path='C:/Users/SONIKA SHARMA/Desktop/gbm_extractor/gbm/chromedriver.exe', chrome_options=options)
+TypeError: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-08-01 17:40:04,120:ERROR:gbm:WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+Traceback (most recent call last):
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\utils.py", line 39, in run
+    br = WebDriver()
+         ^^^^^^^^^^^
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\webdriver.py", line 25, in __init__
+    super().__init__(executable_path='C:/Users/SONIKA SHARMA/Desktop/gbm_extractor/gbm/chromedriver.exe', chrome_options=options)
+TypeError: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-08-01 17:41:22,656:ERROR:gbm:WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+Traceback (most recent call last):
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\utils.py", line 39, in run
+    br = WebDriver()
+         ^^^^^^^^^^^
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\webdriver.py", line 25, in __init__
+    super().__init__(executable_path='C:/Users/SONIKA SHARMA/Desktop/gbm_extractor/gbm/chromedriver.exe', chrome_options=options)
+TypeError: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-08-01 17:44:53,288:ERROR:gbm:WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+Traceback (most recent call last):
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\utils.py", line 39, in run
+    br = WebDriver()
+         ^^^^^^^^^^^
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\webdriver.py", line 25, in __init__
+    super().__init__(executable_path='C:/Users/SONIKA SHARMA/Desktop/gbm_extractor/gbm/chromedriver.exe', chrome_options=options)
+TypeError: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-08-01 17:44:57,229:ERROR:gbm:WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+Traceback (most recent call last):
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\utils.py", line 39, in run
+    br = WebDriver()
+         ^^^^^^^^^^^
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\webdriver.py", line 25, in __init__
+    super().__init__(executable_path='C:/Users/SONIKA SHARMA/Desktop/gbm_extractor/gbm/chromedriver.exe', chrome_options=options)
+TypeError: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-08-01 17:48:19,933:ERROR:gbm:WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+Traceback (most recent call last):
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\utils.py", line 39, in run
+    br = WebDriver()
+         ^^^^^^^^^^^
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\webdriver.py", line 25, in __init__
+    super().__init__(executable_path='C:/Users/SONIKA SHARMA/Desktop/gbm_extractor/gbm/chromedriver.exe', chrome_options=options)
+TypeError: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-08-01 18:06:34,665:ERROR:gbm:WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+Traceback (most recent call last):
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\utils.py", line 39, in run
+    br = WebDriver()
+         ^^^^^^^^^^^
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\webdriver.py", line 25, in __init__
+    super().__init__(executable_path='C:/Users/SONIKA SHARMA/Desktop/gbm_extractor/gbm/chromedriver.exe', chrome_options=options)
+TypeError: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-08-01 18:14:21,099:ERROR:gbm:WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+Traceback (most recent call last):
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\utils.py", line 39, in run
+    br = WebDriver()
+         ^^^^^^^^^^^
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\webdriver.py", line 25, in __init__
+    super().__init__(executable_path='C:/Users/SONIKA SHARMA/Desktop/gbm_extractor/gbm/chromedriver.exe', chrome_options=options)
+TypeError: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-08-01 18:16:33,766:ERROR:gbm:WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+Traceback (most recent call last):
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\utils.py", line 39, in run
+    br = WebDriver()
+         ^^^^^^^^^^^
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\webdriver.py", line 25, in __init__
+    super().__init__(executable_path='C:/Users/SONIKA SHARMA/Desktop/gbm_extractor/gbm/chromedriver.exe', chrome_options=options)
+TypeError: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-08-01 18:17:42,641:ERROR:gbm:WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+Traceback (most recent call last):
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\utils.py", line 39, in run
+    br = WebDriver()
+         ^^^^^^^^^^^
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\webdriver.py", line 25, in __init__
+    super().__init__(executable_path='C:/Users/SONIKA SHARMA/Desktop/gbm_extractor/gbm/chromedriver.exe', chrome_options=options)
+TypeError: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-08-01 18:23:17,854:ERROR:gbm:WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+Traceback (most recent call last):
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\utils.py", line 39, in run
+    br = WebDriver()
+         ^^^^^^^^^^^
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\webdriver.py", line 25, in __init__
+    super().__init__(executable_path='C:/Users/SONIKA SHARMA/Desktop/gbm_extractor/gbm/chromedriver.exe', chrome_options=options)
+TypeError: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
