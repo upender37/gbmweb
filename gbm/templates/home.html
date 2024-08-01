@@ -41,12 +41,14 @@
     </header>
     <main>
         
-        <form action="/some_view/"  method="POST" >
+        <form action="/some-view/"  method="POST" >
             {% csrf_token %}
             <div>
             <label for="Enter keyword ">Keyword:</label>
 
             <input type="text" id="keyword" name="keyword" required>
+            <!-- <input type="text" id="keyword1" name="inp1" required>
+            <input type="text" id="keyword2" name="inp2" required> -->
             </div>
 
             <div>

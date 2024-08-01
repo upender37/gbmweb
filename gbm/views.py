@@ -1,13 +1,15 @@
 
 from django.shortcuts import render
 from django.http import HttpResponse
+#from PySide2 import QtWidgets
+#from .tasks import extract_data
 from django.http import JsonResponse
 from functools import partial
 from gbm.utils import GMapsExtractor
-from .tasks import scrap_data1
+from .tasks import scrap_data1,add
 
 
-"""
+
 def index(request):
     if request.method == 'POST':
         x = int(request.POST.get('x', 0))
@@ -16,12 +18,12 @@ def index(request):
         return JsonResponse({'task_id': result.id})
 
     return render(request, 'home.html')
-"""
 
 def home(request):
     return render(request,'home.html')
 
  
+
 # Example usage in a view
 def some_view(request):
     keyword_list = []
@@ -34,10 +36,10 @@ def some_view(request):
                 keyword_list.append(line)
         if not keyword_list:
             return HttpResponse('Please fill keyword list!', 'Please fill keyword list!')
-        
+        #scrap_data1.apply_async(keyword_list)
         task = scrap_data1(keyword_list)
         # You can now use task.id to track the task status
-        return JsonResponse({'task_id': "task created"}, status=202)
+        return JsonResponse({'task_id': "ss"}, status=202)
     return render(request, 'home.html')
 
 
