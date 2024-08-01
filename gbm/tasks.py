@@ -11,7 +11,7 @@ from gbm.utils import GMapsExtractor
 from billiard.einfo import ExceptionInfo
 
 
-@shared_task
+
 def scrap_data1(keyword_list):
     # Usage
     # thread = GMapsExtractor(keyword_list=keyword_list)
