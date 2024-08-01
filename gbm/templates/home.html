@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        main {
+            padding: 20px;
+        }
+    </style>
+    <style>
+        .button {
+            font-size: 24px;
+            padding: 20px 40px;
+            background-color: #964caf;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to GBM extractor!</h1>
+    </header>
+    <main>
+        
+        <form action="/index/"  method="POST" >
+            {% csrf_token %}
+            <div>
+            <label for="Enter keyword 1">Keyword:</label>
+
+            <input type="text" id="keyword" name="keyword" required>
+
+            <label for="Enter keyword 2">Keyword:</label>
+             <input type="text" id="keyword" name="keyword" required>
+            
+            </div>
+
+            <div>
+            <button type="submit">Submit</button>
+            </div>
+           
+        </form>
+        
+        
+    </main>
+</body>
+</html>
