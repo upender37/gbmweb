@@ -1,7 +1,10 @@
+
 import os
 import csv
 import time
 import logging
+
+
 
 DATA_FOLDER_PATH = 'data'
 EXTRACT_RESULTS_FOLDER_PATH = os.path.join(DATA_FOLDER_PATH, 'businesses')
@@ -33,3 +36,7 @@ def write_result(result: dict, file_path=None):
 for path in [DATA_FOLDER_PATH, EXTRACT_RESULTS_FOLDER_PATH, LOG_FOLDER_PATH]:
     os.makedirs(path, exist_ok=True)
 main_logger = get_logger('gbm')
+
+
+
+

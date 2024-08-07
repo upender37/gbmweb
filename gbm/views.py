@@ -1,12 +1,12 @@
 
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse,JsonResponse
 #from PySide2 import QtWidgets
 #from .tasks import extract_data
-from django.http import JsonResponse
 from functools import partial
 from gbm.utils import GMapsExtractor
-from .tasks import scrap_data1,add
+from .tasks import scrap_data,add
+from celery.result import AsyncResult
 
 
 
@@ -37,9 +37,9 @@ def some_view(request):
         if not keyword_list:
             return HttpResponse('Please fill keyword list!', 'Please fill keyword list!')
         #scrap_data1.apply_async(keyword_list)
-        task = scrap_data1(keyword_list)
+        task = scrap_data.delay(keyword_list)    
         # You can now use task.id to track the task status
-        return JsonResponse({'task_id': "ss"}, status=202)
+        return JsonResponse({'task_id': task.id}, status=202)
     return render(request, 'home.html')
 
 
@@ -65,6 +65,7 @@ def fetch_gbm_data(request):
         #working_thread.error.connect(ui_on_error)
         #working_thread.task_finished.connect(on_task_finished)
         working_thread.start()
+        working_thread.wait()
         print("task completed")
         return HttpResponse('task completed')
-
+    

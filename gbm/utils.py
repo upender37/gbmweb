@@ -2,7 +2,7 @@ import os
 import time
 from urllib.parse import quote_plus
 from selenium.webdriver import Chrome
-#from PySide2.QtCore import QThread, Signal
+from PySide2.QtCore import QThread, Signal
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions
@@ -11,11 +11,13 @@ from . import write_result, main_logger, EXTRACT_RESULTS_FOLDER_PATH
 from .webdriver import WebDriver
 from PyQt5.QtCore import QThread, pyqtSignal
 
+
 class StopException(Exception):
     pass
 
 
 class GMapsExtractor(QThread):
+    
     # extracted_result = Signal(dict)
     # error = Signal(str)
     # task_finished = Signal()
@@ -181,7 +183,9 @@ class GMapsExtractor(QThread):
             pass
         except Exception as e:
             self.error.emit(str(e))
+            print(f"Task error: {e}")
             main_logger.exception(e, exc_info=True)
+            
         if br:
             br.quit()
         self.task_finished.emit()

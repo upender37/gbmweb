@@ -9,20 +9,15 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, WebDriverException
 from gbm.utils import GMapsExtractor
 from billiard.einfo import ExceptionInfo
+import logging
 
+logger = logging.getLogger(__name__)
 
-def scrap_data1(keyword_list):
-    # Usage
-    # thread = GMapsExtractor(keyword_list=keyword_list)
-    # thread.finished.connect(lambda: print("Thread finished!"))
-    # thread.error.connect(lambda error: print(f"Error: {error}"))
-    # thread.start()
-
-    # thread.wait()
-    # return "Task Completed"
-
+@shared_task
+def scrap_data(keyword_list):
     try:
         print(f"Received keywords: {keyword_list}")
+        logger.info(f'Adding {keyword_list}')
         # Initialize and start the thread
         thread = GMapsExtractor(keyword_list=keyword_list)
         thread.finished.connect(lambda: print("Thread finished!"))
@@ -34,10 +29,6 @@ def scrap_data1(keyword_list):
         print(f"Task error: {e}")
         raise e
 
-
-
-
-@shared_task
 def add (x, y):
     return x + y
 

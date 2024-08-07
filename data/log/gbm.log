@@ -514,3 +514,624 @@ Traceback (most recent call last):
   File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\webdriver.py", line 25, in __init__
     super().__init__(executable_path='C:/Users/SONIKA SHARMA/Desktop/gbm_extractor/gbm/chromedriver.exe', chrome_options=options)
 TypeError: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2024-08-04 20:47:37,495:ERROR:gbm:Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AF01EEB2+31554]
+	(No symbol) [0x00007FF7AEF97EE9]
+	(No symbol) [0x00007FF7AEE5872A]
+	(No symbol) [0x00007FF7AEE2D995]
+	(No symbol) [0x00007FF7AEED44D7]
+	(No symbol) [0x00007FF7AEEEC051]
+	(No symbol) [0x00007FF7AEECCDD3]
+	(No symbol) [0x00007FF7AEE9A33B]
+	(No symbol) [0x00007FF7AEE9AED1]
+	GetHandleVerifier [0x00007FF7AF328B2D+3217341]
+	GetHandleVerifier [0x00007FF7AF375AF3+3532675]
+	GetHandleVerifier [0x00007FF7AF36B0F0+3489152]
+	GetHandleVerifier [0x00007FF7AF0CE786+750614]
+	(No symbol) [0x00007FF7AEFA376F]
+	(No symbol) [0x00007FF7AEF9EB24]
+	(No symbol) [0x00007FF7AEF9ECB2]
+	(No symbol) [0x00007FF7AEF8E17F]
+	BaseThreadInitThunk [0x00007FFCD50E257D+29]
+	RtlUserThreadStart [0x00007FFCD640AF28+40]
+Traceback (most recent call last):
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\utils.py", line 68, in run
+    br.find_elements(By.CSS_SELECTOR, 'a[href*="https://www.google.com/maps/place/"]')
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1283, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AF01EEB2+31554]
+	(No symbol) [0x00007FF7AEF97EE9]
+	(No symbol) [0x00007FF7AEE5872A]
+	(No symbol) [0x00007FF7AEE2D995]
+	(No symbol) [0x00007FF7AEED44D7]
+	(No symbol) [0x00007FF7AEEEC051]
+	(No symbol) [0x00007FF7AEECCDD3]
+	(No symbol) [0x00007FF7AEE9A33B]
+	(No symbol) [0x00007FF7AEE9AED1]
+	GetHandleVerifier [0x00007FF7AF328B2D+3217341]
+	GetHandleVerifier [0x00007FF7AF375AF3+3532675]
+	GetHandleVerifier [0x00007FF7AF36B0F0+3489152]
+	GetHandleVerifier [0x00007FF7AF0CE786+750614]
+	(No symbol) [0x00007FF7AEFA376F]
+	(No symbol) [0x00007FF7AEF9EB24]
+	(No symbol) [0x00007FF7AEF9ECB2]
+	(No symbol) [0x00007FF7AEF8E17F]
+	BaseThreadInitThunk [0x00007FFCD50E257D+29]
+	RtlUserThreadStart [0x00007FFCD640AF28+40]
+
+2024-08-04 20:53:56,955:ERROR:gbm:Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AF01EEB2+31554]
+	(No symbol) [0x00007FF7AEF97EE9]
+	(No symbol) [0x00007FF7AEE5872A]
+	(No symbol) [0x00007FF7AEE2D995]
+	(No symbol) [0x00007FF7AEED44D7]
+	(No symbol) [0x00007FF7AEEEC051]
+	(No symbol) [0x00007FF7AEECCDD3]
+	(No symbol) [0x00007FF7AEE9A33B]
+	(No symbol) [0x00007FF7AEE9AED1]
+	GetHandleVerifier [0x00007FF7AF328B2D+3217341]
+	GetHandleVerifier [0x00007FF7AF375AF3+3532675]
+	GetHandleVerifier [0x00007FF7AF36B0F0+3489152]
+	GetHandleVerifier [0x00007FF7AF0CE786+750614]
+	(No symbol) [0x00007FF7AEFA376F]
+	(No symbol) [0x00007FF7AEF9EB24]
+	(No symbol) [0x00007FF7AEF9ECB2]
+	(No symbol) [0x00007FF7AEF8E17F]
+	BaseThreadInitThunk [0x00007FFCD50E257D+29]
+	RtlUserThreadStart [0x00007FFCD640AF28+40]
+Traceback (most recent call last):
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\utils.py", line 68, in run
+    br.find_elements(By.CSS_SELECTOR, 'a[href*="https://www.google.com/maps/place/"]')
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1283, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AF01EEB2+31554]
+	(No symbol) [0x00007FF7AEF97EE9]
+	(No symbol) [0x00007FF7AEE5872A]
+	(No symbol) [0x00007FF7AEE2D995]
+	(No symbol) [0x00007FF7AEED44D7]
+	(No symbol) [0x00007FF7AEEEC051]
+	(No symbol) [0x00007FF7AEECCDD3]
+	(No symbol) [0x00007FF7AEE9A33B]
+	(No symbol) [0x00007FF7AEE9AED1]
+	GetHandleVerifier [0x00007FF7AF328B2D+3217341]
+	GetHandleVerifier [0x00007FF7AF375AF3+3532675]
+	GetHandleVerifier [0x00007FF7AF36B0F0+3489152]
+	GetHandleVerifier [0x00007FF7AF0CE786+750614]
+	(No symbol) [0x00007FF7AEFA376F]
+	(No symbol) [0x00007FF7AEF9EB24]
+	(No symbol) [0x00007FF7AEF9ECB2]
+	(No symbol) [0x00007FF7AEF8E17F]
+	BaseThreadInitThunk [0x00007FFCD50E257D+29]
+	RtlUserThreadStart [0x00007FFCD640AF28+40]
+
+2024-08-04 22:25:32,428:ERROR:gbm:'NoneType' object has no attribute 'get_attribute'
+Traceback (most recent call last):
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\utils.py", line 106, in run
+    claim = br.find_element(By.CSS_SELECTOR, 'a[data-item-id*="merchant"]').get_attribute('aria-label')
+AttributeError: 'NoneType' object has no attribute 'get_attribute'
+2024-08-04 23:03:28,906:ERROR:gbm:Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AF01EEB2+31554]
+	(No symbol) [0x00007FF7AEF97EE9]
+	(No symbol) [0x00007FF7AEE5872A]
+	(No symbol) [0x00007FF7AEE2D995]
+	(No symbol) [0x00007FF7AEED44D7]
+	(No symbol) [0x00007FF7AEEEC051]
+	(No symbol) [0x00007FF7AEECCDD3]
+	(No symbol) [0x00007FF7AEE9A33B]
+	(No symbol) [0x00007FF7AEE9AED1]
+	GetHandleVerifier [0x00007FF7AF328B2D+3217341]
+	GetHandleVerifier [0x00007FF7AF375AF3+3532675]
+	GetHandleVerifier [0x00007FF7AF36B0F0+3489152]
+	GetHandleVerifier [0x00007FF7AF0CE786+750614]
+	(No symbol) [0x00007FF7AEFA376F]
+	(No symbol) [0x00007FF7AEF9EB24]
+	(No symbol) [0x00007FF7AEF9ECB2]
+	(No symbol) [0x00007FF7AEF8E17F]
+	BaseThreadInitThunk [0x00007FFCD50E257D+29]
+	RtlUserThreadStart [0x00007FFCD640AF28+40]
+Traceback (most recent call last):
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\utils.py", line 62, in run
+    br.find_elements(By.CSS_SELECTOR, 'a[href*="https://www.google.com/maps/place/"]')[-1]
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1283, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AF01EEB2+31554]
+	(No symbol) [0x00007FF7AEF97EE9]
+	(No symbol) [0x00007FF7AEE5872A]
+	(No symbol) [0x00007FF7AEE2D995]
+	(No symbol) [0x00007FF7AEED44D7]
+	(No symbol) [0x00007FF7AEEEC051]
+	(No symbol) [0x00007FF7AEECCDD3]
+	(No symbol) [0x00007FF7AEE9A33B]
+	(No symbol) [0x00007FF7AEE9AED1]
+	GetHandleVerifier [0x00007FF7AF328B2D+3217341]
+	GetHandleVerifier [0x00007FF7AF375AF3+3532675]
+	GetHandleVerifier [0x00007FF7AF36B0F0+3489152]
+	GetHandleVerifier [0x00007FF7AF0CE786+750614]
+	(No symbol) [0x00007FF7AEFA376F]
+	(No symbol) [0x00007FF7AEF9EB24]
+	(No symbol) [0x00007FF7AEF9ECB2]
+	(No symbol) [0x00007FF7AEF8E17F]
+	BaseThreadInitThunk [0x00007FFCD50E257D+29]
+	RtlUserThreadStart [0x00007FFCD640AF28+40]
+
+2024-08-04 23:14:52,103:ERROR:gbm:Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AF01EEB2+31554]
+	(No symbol) [0x00007FF7AEF97EE9]
+	(No symbol) [0x00007FF7AEE5872A]
+	(No symbol) [0x00007FF7AEE2D995]
+	(No symbol) [0x00007FF7AEED44D7]
+	(No symbol) [0x00007FF7AEEEC051]
+	(No symbol) [0x00007FF7AEECCDD3]
+	(No symbol) [0x00007FF7AEE9A33B]
+	(No symbol) [0x00007FF7AEE9AED1]
+	GetHandleVerifier [0x00007FF7AF328B2D+3217341]
+	GetHandleVerifier [0x00007FF7AF375AF3+3532675]
+	GetHandleVerifier [0x00007FF7AF36B0F0+3489152]
+	GetHandleVerifier [0x00007FF7AF0CE786+750614]
+	(No symbol) [0x00007FF7AEFA376F]
+	(No symbol) [0x00007FF7AEF9EB24]
+	(No symbol) [0x00007FF7AEF9ECB2]
+	(No symbol) [0x00007FF7AEF8E17F]
+	BaseThreadInitThunk [0x00007FFCD50E257D+29]
+	RtlUserThreadStart [0x00007FFCD640AF28+40]
+Traceback (most recent call last):
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\utils.py", line 62, in run
+    br.find_elements(By.CSS_SELECTOR, 'a[href*="https://www.google.com/maps/place/"]')[-1]
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1283, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AF01EEB2+31554]
+	(No symbol) [0x00007FF7AEF97EE9]
+	(No symbol) [0x00007FF7AEE5872A]
+	(No symbol) [0x00007FF7AEE2D995]
+	(No symbol) [0x00007FF7AEED44D7]
+	(No symbol) [0x00007FF7AEEEC051]
+	(No symbol) [0x00007FF7AEECCDD3]
+	(No symbol) [0x00007FF7AEE9A33B]
+	(No symbol) [0x00007FF7AEE9AED1]
+	GetHandleVerifier [0x00007FF7AF328B2D+3217341]
+	GetHandleVerifier [0x00007FF7AF375AF3+3532675]
+	GetHandleVerifier [0x00007FF7AF36B0F0+3489152]
+	GetHandleVerifier [0x00007FF7AF0CE786+750614]
+	(No symbol) [0x00007FF7AEFA376F]
+	(No symbol) [0x00007FF7AEF9EB24]
+	(No symbol) [0x00007FF7AEF9ECB2]
+	(No symbol) [0x00007FF7AEF8E17F]
+	BaseThreadInitThunk [0x00007FFCD50E257D+29]
+	RtlUserThreadStart [0x00007FFCD640AF28+40]
+
+2024-08-04 23:22:40,919:ERROR:gbm:Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AF01EEB2+31554]
+	(No symbol) [0x00007FF7AEF97EE9]
+	(No symbol) [0x00007FF7AEE5872A]
+	(No symbol) [0x00007FF7AEE2D995]
+	(No symbol) [0x00007FF7AEED44D7]
+	(No symbol) [0x00007FF7AEEEC051]
+	(No symbol) [0x00007FF7AEECCDD3]
+	(No symbol) [0x00007FF7AEE9A33B]
+	(No symbol) [0x00007FF7AEE9AED1]
+	GetHandleVerifier [0x00007FF7AF328B2D+3217341]
+	GetHandleVerifier [0x00007FF7AF375AF3+3532675]
+	GetHandleVerifier [0x00007FF7AF36B0F0+3489152]
+	GetHandleVerifier [0x00007FF7AF0CE786+750614]
+	(No symbol) [0x00007FF7AEFA376F]
+	(No symbol) [0x00007FF7AEF9EB24]
+	(No symbol) [0x00007FF7AEF9ECB2]
+	(No symbol) [0x00007FF7AEF8E17F]
+	BaseThreadInitThunk [0x00007FFCD50E257D+29]
+	RtlUserThreadStart [0x00007FFCD640AF28+40]
+Traceback (most recent call last):
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\utils.py", line 68, in run
+    br.find_elements(By.CSS_SELECTOR, 'a[href*="https://www.google.com/maps/place/"]')
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1283, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AF01EEB2+31554]
+	(No symbol) [0x00007FF7AEF97EE9]
+	(No symbol) [0x00007FF7AEE5872A]
+	(No symbol) [0x00007FF7AEE2D995]
+	(No symbol) [0x00007FF7AEED44D7]
+	(No symbol) [0x00007FF7AEEEC051]
+	(No symbol) [0x00007FF7AEECCDD3]
+	(No symbol) [0x00007FF7AEE9A33B]
+	(No symbol) [0x00007FF7AEE9AED1]
+	GetHandleVerifier [0x00007FF7AF328B2D+3217341]
+	GetHandleVerifier [0x00007FF7AF375AF3+3532675]
+	GetHandleVerifier [0x00007FF7AF36B0F0+3489152]
+	GetHandleVerifier [0x00007FF7AF0CE786+750614]
+	(No symbol) [0x00007FF7AEFA376F]
+	(No symbol) [0x00007FF7AEF9EB24]
+	(No symbol) [0x00007FF7AEF9ECB2]
+	(No symbol) [0x00007FF7AEF8E17F]
+	BaseThreadInitThunk [0x00007FFCD50E257D+29]
+	RtlUserThreadStart [0x00007FFCD640AF28+40]
+
+2024-08-04 23:28:40,619:ERROR:gbm:Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AF01EEB2+31554]
+	(No symbol) [0x00007FF7AEF97EE9]
+	(No symbol) [0x00007FF7AEE5872A]
+	(No symbol) [0x00007FF7AEE2D995]
+	(No symbol) [0x00007FF7AEED44D7]
+	(No symbol) [0x00007FF7AEEEC051]
+	(No symbol) [0x00007FF7AEECCDD3]
+	(No symbol) [0x00007FF7AEE9A33B]
+	(No symbol) [0x00007FF7AEE9AED1]
+	GetHandleVerifier [0x00007FF7AF328B2D+3217341]
+	GetHandleVerifier [0x00007FF7AF375AF3+3532675]
+	GetHandleVerifier [0x00007FF7AF36B0F0+3489152]
+	GetHandleVerifier [0x00007FF7AF0CE786+750614]
+	(No symbol) [0x00007FF7AEFA376F]
+	(No symbol) [0x00007FF7AEF9EB24]
+	(No symbol) [0x00007FF7AEF9ECB2]
+	(No symbol) [0x00007FF7AEF8E17F]
+	BaseThreadInitThunk [0x00007FFCD50E257D+29]
+	RtlUserThreadStart [0x00007FFCD640AF28+40]
+Traceback (most recent call last):
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\utils.py", line 76, in run
+    for a in br.find_elements(By.CSS_SELECTOR, 'a[href*="https://www.google.com/maps/place/"]'):
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1283, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AF01EEB2+31554]
+	(No symbol) [0x00007FF7AEF97EE9]
+	(No symbol) [0x00007FF7AEE5872A]
+	(No symbol) [0x00007FF7AEE2D995]
+	(No symbol) [0x00007FF7AEED44D7]
+	(No symbol) [0x00007FF7AEEEC051]
+	(No symbol) [0x00007FF7AEECCDD3]
+	(No symbol) [0x00007FF7AEE9A33B]
+	(No symbol) [0x00007FF7AEE9AED1]
+	GetHandleVerifier [0x00007FF7AF328B2D+3217341]
+	GetHandleVerifier [0x00007FF7AF375AF3+3532675]
+	GetHandleVerifier [0x00007FF7AF36B0F0+3489152]
+	GetHandleVerifier [0x00007FF7AF0CE786+750614]
+	(No symbol) [0x00007FF7AEFA376F]
+	(No symbol) [0x00007FF7AEF9EB24]
+	(No symbol) [0x00007FF7AEF9ECB2]
+	(No symbol) [0x00007FF7AEF8E17F]
+	BaseThreadInitThunk [0x00007FFCD50E257D+29]
+	RtlUserThreadStart [0x00007FFCD640AF28+40]
+
+2024-08-05 13:10:34,136:ERROR:gbm:Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6CE5AEEB2+31554]
+	(No symbol) [0x00007FF6CE527EE9]
+	(No symbol) [0x00007FF6CE3E872A]
+	(No symbol) [0x00007FF6CE3BD995]
+	(No symbol) [0x00007FF6CE4644D7]
+	(No symbol) [0x00007FF6CE47C051]
+	(No symbol) [0x00007FF6CE45CDD3]
+	(No symbol) [0x00007FF6CE42A33B]
+	(No symbol) [0x00007FF6CE42AED1]
+	GetHandleVerifier [0x00007FF6CE8B8B2D+3217341]
+	GetHandleVerifier [0x00007FF6CE905AF3+3532675]
+	GetHandleVerifier [0x00007FF6CE8FB0F0+3489152]
+	GetHandleVerifier [0x00007FF6CE65E786+750614]
+	(No symbol) [0x00007FF6CE53376F]
+	(No symbol) [0x00007FF6CE52EB24]
+	(No symbol) [0x00007FF6CE52ECB2]
+	(No symbol) [0x00007FF6CE51E17F]
+	BaseThreadInitThunk [0x00007FFCD50E257D+29]
+	RtlUserThreadStart [0x00007FFCD640AF28+40]
+Traceback (most recent call last):
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\utils.py", line 108, in run
+    claim = br.find_element(By.CSS_SELECTOR, 'a[data-item-id*="merchant"]').get_attribute('aria-label')
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1248, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6CE5AEEB2+31554]
+	(No symbol) [0x00007FF6CE527EE9]
+	(No symbol) [0x00007FF6CE3E872A]
+	(No symbol) [0x00007FF6CE3BD995]
+	(No symbol) [0x00007FF6CE4644D7]
+	(No symbol) [0x00007FF6CE47C051]
+	(No symbol) [0x00007FF6CE45CDD3]
+	(No symbol) [0x00007FF6CE42A33B]
+	(No symbol) [0x00007FF6CE42AED1]
+	GetHandleVerifier [0x00007FF6CE8B8B2D+3217341]
+	GetHandleVerifier [0x00007FF6CE905AF3+3532675]
+	GetHandleVerifier [0x00007FF6CE8FB0F0+3489152]
+	GetHandleVerifier [0x00007FF6CE65E786+750614]
+	(No symbol) [0x00007FF6CE53376F]
+	(No symbol) [0x00007FF6CE52EB24]
+	(No symbol) [0x00007FF6CE52ECB2]
+	(No symbol) [0x00007FF6CE51E17F]
+	BaseThreadInitThunk [0x00007FFCD50E257D+29]
+	RtlUserThreadStart [0x00007FFCD640AF28+40]
+
+2024-08-05 13:16:10,265:ERROR:gbm:Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6CE5AEEB2+31554]
+	(No symbol) [0x00007FF6CE527EE9]
+	(No symbol) [0x00007FF6CE3E872A]
+	(No symbol) [0x00007FF6CE3BD995]
+	(No symbol) [0x00007FF6CE4644D7]
+	(No symbol) [0x00007FF6CE47C051]
+	(No symbol) [0x00007FF6CE45CDD3]
+	(No symbol) [0x00007FF6CE42A33B]
+	(No symbol) [0x00007FF6CE42AED1]
+	GetHandleVerifier [0x00007FF6CE8B8B2D+3217341]
+	GetHandleVerifier [0x00007FF6CE905AF3+3532675]
+	GetHandleVerifier [0x00007FF6CE8FB0F0+3489152]
+	GetHandleVerifier [0x00007FF6CE65E786+750614]
+	(No symbol) [0x00007FF6CE53376F]
+	(No symbol) [0x00007FF6CE52EB24]
+	(No symbol) [0x00007FF6CE52ECB2]
+	(No symbol) [0x00007FF6CE51E17F]
+	BaseThreadInitThunk [0x00007FFCD50E257D+29]
+	RtlUserThreadStart [0x00007FFCD640AF28+40]
+Traceback (most recent call last):
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\utils.py", line 64, in run
+    br.find_elements(By.CSS_SELECTOR, 'a[href*="https://www.google.com/maps/place/"]')[-1]
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1283, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6CE5AEEB2+31554]
+	(No symbol) [0x00007FF6CE527EE9]
+	(No symbol) [0x00007FF6CE3E872A]
+	(No symbol) [0x00007FF6CE3BD995]
+	(No symbol) [0x00007FF6CE4644D7]
+	(No symbol) [0x00007FF6CE47C051]
+	(No symbol) [0x00007FF6CE45CDD3]
+	(No symbol) [0x00007FF6CE42A33B]
+	(No symbol) [0x00007FF6CE42AED1]
+	GetHandleVerifier [0x00007FF6CE8B8B2D+3217341]
+	GetHandleVerifier [0x00007FF6CE905AF3+3532675]
+	GetHandleVerifier [0x00007FF6CE8FB0F0+3489152]
+	GetHandleVerifier [0x00007FF6CE65E786+750614]
+	(No symbol) [0x00007FF6CE53376F]
+	(No symbol) [0x00007FF6CE52EB24]
+	(No symbol) [0x00007FF6CE52ECB2]
+	(No symbol) [0x00007FF6CE51E17F]
+	BaseThreadInitThunk [0x00007FFCD50E257D+29]
+	RtlUserThreadStart [0x00007FFCD640AF28+40]
+
+2024-08-05 13:44:44,418:ERROR:gbm:Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6CE5AEEB2+31554]
+	(No symbol) [0x00007FF6CE527EE9]
+	(No symbol) [0x00007FF6CE3E872A]
+	(No symbol) [0x00007FF6CE3BD995]
+	(No symbol) [0x00007FF6CE4644D7]
+	(No symbol) [0x00007FF6CE47C051]
+	(No symbol) [0x00007FF6CE45CDD3]
+	(No symbol) [0x00007FF6CE42A33B]
+	(No symbol) [0x00007FF6CE42AED1]
+	GetHandleVerifier [0x00007FF6CE8B8B2D+3217341]
+	GetHandleVerifier [0x00007FF6CE905AF3+3532675]
+	GetHandleVerifier [0x00007FF6CE8FB0F0+3489152]
+	GetHandleVerifier [0x00007FF6CE65E786+750614]
+	(No symbol) [0x00007FF6CE53376F]
+	(No symbol) [0x00007FF6CE52EB24]
+	(No symbol) [0x00007FF6CE52ECB2]
+	(No symbol) [0x00007FF6CE51E17F]
+	BaseThreadInitThunk [0x00007FFCD50E257D+29]
+	RtlUserThreadStart [0x00007FFCD640AF28+40]
+Traceback (most recent call last):
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\utils.py", line 78, in run
+    for a in br.find_elements(By.CSS_SELECTOR, 'a[href*="https://www.google.com/maps/place/"]'):
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1283, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6CE5AEEB2+31554]
+	(No symbol) [0x00007FF6CE527EE9]
+	(No symbol) [0x00007FF6CE3E872A]
+	(No symbol) [0x00007FF6CE3BD995]
+	(No symbol) [0x00007FF6CE4644D7]
+	(No symbol) [0x00007FF6CE47C051]
+	(No symbol) [0x00007FF6CE45CDD3]
+	(No symbol) [0x00007FF6CE42A33B]
+	(No symbol) [0x00007FF6CE42AED1]
+	GetHandleVerifier [0x00007FF6CE8B8B2D+3217341]
+	GetHandleVerifier [0x00007FF6CE905AF3+3532675]
+	GetHandleVerifier [0x00007FF6CE8FB0F0+3489152]
+	GetHandleVerifier [0x00007FF6CE65E786+750614]
+	(No symbol) [0x00007FF6CE53376F]
+	(No symbol) [0x00007FF6CE52EB24]
+	(No symbol) [0x00007FF6CE52ECB2]
+	(No symbol) [0x00007FF6CE51E17F]
+	BaseThreadInitThunk [0x00007FFCD50E257D+29]
+	RtlUserThreadStart [0x00007FFCD640AF28+40]
+
+2024-08-07 11:42:56,525:ERROR:gbm:Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF73FADEEB2+31554]
+	(No symbol) [0x00007FF73FA57EE9]
+	(No symbol) [0x00007FF73F91872A]
+	(No symbol) [0x00007FF73F8ED995]
+	(No symbol) [0x00007FF73F9944D7]
+	(No symbol) [0x00007FF73F9AC051]
+	(No symbol) [0x00007FF73F98CDD3]
+	(No symbol) [0x00007FF73F95A33B]
+	(No symbol) [0x00007FF73F95AED1]
+	GetHandleVerifier [0x00007FF73FDE8B2D+3217341]
+	GetHandleVerifier [0x00007FF73FE35AF3+3532675]
+	GetHandleVerifier [0x00007FF73FE2B0F0+3489152]
+	GetHandleVerifier [0x00007FF73FB8E786+750614]
+	(No symbol) [0x00007FF73FA6376F]
+	(No symbol) [0x00007FF73FA5EB24]
+	(No symbol) [0x00007FF73FA5ECB2]
+	(No symbol) [0x00007FF73FA4E17F]
+	BaseThreadInitThunk [0x00007FFCD50E257D+29]
+	RtlUserThreadStart [0x00007FFCD640AF28+40]
+Traceback (most recent call last):
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\utils.py", line 108, in run
+    claim = br.find_element(By.CSS_SELECTOR, 'a[data-item-id*="merchant"]').get_attribute('aria-label')
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1248, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF73FADEEB2+31554]
+	(No symbol) [0x00007FF73FA57EE9]
+	(No symbol) [0x00007FF73F91872A]
+	(No symbol) [0x00007FF73F8ED995]
+	(No symbol) [0x00007FF73F9944D7]
+	(No symbol) [0x00007FF73F9AC051]
+	(No symbol) [0x00007FF73F98CDD3]
+	(No symbol) [0x00007FF73F95A33B]
+	(No symbol) [0x00007FF73F95AED1]
+	GetHandleVerifier [0x00007FF73FDE8B2D+3217341]
+	GetHandleVerifier [0x00007FF73FE35AF3+3532675]
+	GetHandleVerifier [0x00007FF73FE2B0F0+3489152]
+	GetHandleVerifier [0x00007FF73FB8E786+750614]
+	(No symbol) [0x00007FF73FA6376F]
+	(No symbol) [0x00007FF73FA5EB24]
+	(No symbol) [0x00007FF73FA5ECB2]
+	(No symbol) [0x00007FF73FA4E17F]
+	BaseThreadInitThunk [0x00007FFCD50E257D+29]
+	RtlUserThreadStart [0x00007FFCD640AF28+40]
+
+2024-08-07 13:53:02,111:ERROR:gbm:Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF73FADEEB2+31554]
+	(No symbol) [0x00007FF73FA57EE9]
+	(No symbol) [0x00007FF73F91872A]
+	(No symbol) [0x00007FF73F8ED995]
+	(No symbol) [0x00007FF73F9944D7]
+	(No symbol) [0x00007FF73F9AC051]
+	(No symbol) [0x00007FF73F98CDD3]
+	(No symbol) [0x00007FF73F95A33B]
+	(No symbol) [0x00007FF73F95AED1]
+	GetHandleVerifier [0x00007FF73FDE8B2D+3217341]
+	GetHandleVerifier [0x00007FF73FE35AF3+3532675]
+	GetHandleVerifier [0x00007FF73FE2B0F0+3489152]
+	GetHandleVerifier [0x00007FF73FB8E786+750614]
+	(No symbol) [0x00007FF73FA6376F]
+	(No symbol) [0x00007FF73FA5EB24]
+	(No symbol) [0x00007FF73FA5ECB2]
+	(No symbol) [0x00007FF73FA4E17F]
+	BaseThreadInitThunk [0x00007FFCD50E257D+29]
+	RtlUserThreadStart [0x00007FFCD640AF28+40]
+Traceback (most recent call last):
+  File "C:\Users\SONIKA SHARMA\Desktop\gbm_extractor\gbm\utils.py", line 108, in run
+    claim = br.find_element(By.CSS_SELECTOR, 'a[data-item-id*="merchant"]').get_attribute('aria-label')
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1248, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\SONIKA SHARMA\anaconda3\envs\myenv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF73FADEEB2+31554]
+	(No symbol) [0x00007FF73FA57EE9]
+	(No symbol) [0x00007FF73F91872A]
+	(No symbol) [0x00007FF73F8ED995]
+	(No symbol) [0x00007FF73F9944D7]
+	(No symbol) [0x00007FF73F9AC051]
+	(No symbol) [0x00007FF73F98CDD3]
+	(No symbol) [0x00007FF73F95A33B]
+	(No symbol) [0x00007FF73F95AED1]
+	GetHandleVerifier [0x00007FF73FDE8B2D+3217341]
+	GetHandleVerifier [0x00007FF73FE35AF3+3532675]
+	GetHandleVerifier [0x00007FF73FE2B0F0+3489152]
+	GetHandleVerifier [0x00007FF73FB8E786+750614]
+	(No symbol) [0x00007FF73FA6376F]
+	(No symbol) [0x00007FF73FA5EB24]
+	(No symbol) [0x00007FF73FA5ECB2]
+	(No symbol) [0x00007FF73FA4E17F]
+	BaseThreadInitThunk [0x00007FFCD50E257D+29]
+	RtlUserThreadStart [0x00007FFCD640AF28+40]
+

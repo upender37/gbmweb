@@ -24,4 +24,5 @@ urlpatterns = [
     path( 'home/', views.home, name='home'),
     path( 'some-view/', views.some_view, name='some-view'),
     path( 'index/', views.index, name='index'),
+    
 ]
